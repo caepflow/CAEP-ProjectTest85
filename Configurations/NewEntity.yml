@@ -20,6 +20,11 @@ fields:
     isPublic: true
     enumerable: true
     name: type
+  - type: decimal
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: price
 description: Entity
 associations: []
 useRepository: true
