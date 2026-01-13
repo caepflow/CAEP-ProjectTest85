@@ -1,0 +1,20 @@
+id: ef4720ae-821e-efa3-a5b3-a74a820565ab
+type: entity
+interactions: []
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      c3880890-f951-6f9b-0bb0-ff3ae8d3ab10:
+        x: 240.17410001137978
+        y: 145.74611448138506
+entityType: domain
+name: Customer
+description: Description for NewEntity
+fields:
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: name
+useRepository: true

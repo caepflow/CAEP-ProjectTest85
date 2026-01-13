@@ -1,0 +1,32 @@
+id: 9ca73371-8f5f-730f-6d13-fcf2f14ace9b
+type: service
+interactions:
+  - targetId: 57eb05fc-9003-47c7-8313-eeba86235fce
+    type: database
+    level: container
+annotations:
+  - namespace: c4modeler
+    name: position
+    value:
+      f1f4b979-4624-4bcc-b485-70a76ebe4572:
+        x: 487.49834571367654
+        y: 422.189143025221
+  - namespace: c4modeler
+    name: boundary
+    value:
+      x: 229.6246276067527
+      y: 203.41410129096323
+      width: 400
+      height: 300
+target:
+  framework: net
+  version: 9
+generationMode: default
+name: ShoppingCart
+description: Description for NewService
+namespace: Ca.CaepFlow.ShoppingCart
+data:
+  orm: EntityFrameworkCore
+children:
+  - id: c3880890-f951-6f9b-0bb0-ff3ae8d3ab10
+    type: data
